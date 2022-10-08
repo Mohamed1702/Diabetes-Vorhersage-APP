@@ -1,5 +1,5 @@
 # Diabetes-Vorhersage-APP
-light-Price-Predict-Deployment-Heroku
+Diabetes-Predictiction- with Deployment-Heroku
 
 An innovative AI-tool to predict Flight Price
 
