@@ -13,7 +13,31 @@ https://diabetes-prediction-systems.herokuapp.com/
 
 Business Problem:
 
-Both the user and any passenger inside india cities find the process of knowing or letting someone know their chances of getting prediction of flight price The prediction of flight price is hard and time-consuming. Both the parties have to find a time to calculate it through using different factors and then analyze their Machine Learning based Solution application to know the price.
+Inputs features:-
+Pregnancies : You have to input how many number of a female got pregnant, if the user is male, kindly use 0 for that.
+Glucose : In this feature you have to fill up your Glucose.
+BP ( Blood Pressure ) : The User have to fill BP
+Skin Thickness
+Insulin
+BMI
+Diabetes Pedigree Function
+Age
+Approach & Results
+I have used the following models,
+
+Decision Trees With Tuning
+Random Forest with Extensive Tuning
+XGBoost
+Catboost
+So, I have decided to go with Catboost, because it is more robust, it is less prone to overfitting. The results are below after details about Evaluation.
+
+I have used C-Index for Evaluation of the models, below is the formula for calculating C-Index:-
+
+cindex = concordant + 0.5 x ties / permissible
+
+The c-index measures the discriminatory power of a risk score.
+A higher c-index indicates that the model's prediction is in agreement with the actual outcomes of a pair of patients.
+Results:- image
 
 Tools Used:
 
