@@ -8,7 +8,6 @@ In this data science machine learning project tutorial, we are going to build an
 Table Of Contents:
 
 App Link :
-
 https://diabetes-prediction-systems.herokuapp.com/
 
 Business Problem:
